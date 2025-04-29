@@ -38,7 +38,7 @@ def main():
     print("Willkommen zum Verschlüsselungstool für den BlitzPool Bot 🔒\n")
     public_key = load_public_key()
 
-    message = input("Gib deine Nachricht ein (z.B. /subscribe 1BitcoinAdresse...):\n> ").strip()
+    message = input("Gib deine Worker Wallet Adresse ein z.B. bc1q123xxx...):\n> ").strip()
     if not message:
         print("❗️ Nachricht darf nicht leer sein.")
         return
