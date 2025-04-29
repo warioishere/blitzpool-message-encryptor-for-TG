@@ -5,7 +5,6 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.backends import default_backend
 
-# Der Public Key als PEM-String (wie bei dir angegeben)
 PUBLIC_KEY_PEM = b"""-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAr/zLq5zMc9Ty8uYwbvjH
 Hkkh3Kz9URqaORJOnwd+1I75t2fFMRnwORjfFiF/3jdYfTHbtKD1sO4t0f0jmwnv
