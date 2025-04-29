@@ -32,6 +32,7 @@ python3 encrypt-message.py
 ```
 /subscribe 1BitcoinAdresse1234...
 ```
+2. Sende den Output des Programms an den Bot, anschliessend solltest du eingeloggt sein.
 
 ## 🪟 Für Windows (EXE-Version)
 
@@ -45,8 +46,7 @@ Die Windows-Version funktioniert wie das Python-Tool, benötigt aber keine Pytho
 ```
 /subscribe 1BitcoinAdresse1234...
 ```
-
-1. Das Tool zeigt dir einen verschlüsselten Text (Base64), den du einfach an den Bot senden kannst.
+2. Sende den Output des Programms an den Bot, anschliessend solltest du eingeloggt sein.
 
 ## 🛡️ Sicherheit
 
