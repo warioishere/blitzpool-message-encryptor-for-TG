@@ -27,12 +27,12 @@ pip3 install cryptography
 python3 encrypt-message.py
 ```
 
-1. Gib deine Nachricht ein, z. B.:
+1. Gib deine Miner BTC Adresse ein ein, z. B.:
 
 ```
-/subscribe 1BitcoinAdresse1234...
+bc1q123xxx
 ```
-2. Sende den Output des Programms an den Bot, anschliessend solltest du eingeloggt sein.
+2. Sende den Output des Programms inklusive ./subscribe an den Bot, anschliessend solltest du eingeloggt sein.
 
 ## 🪟 Für Windows (EXE-Version)
 
@@ -41,12 +41,12 @@ Die Windows-Version funktioniert wie das Python-Tool, benötigt aber keine Pytho
 ### ▶️ Anwendung
 
 1. Öffne ein Terminal oder doppelklicke die Datei blitzpool-message-encryptor.exe
-2. Gib deine Nachricht ein, z. B.:
+2. Gib deine Miner BTC Adresse ein ein, z. B.:
 
 ```
-/subscribe 1BitcoinAdresse1234...
+bc1q123xxx
 ```
-2. Sende den Output des Programms an den Bot, anschliessend solltest du eingeloggt sein.
+2. Sende den Output des Programms inklusive /subscribe an den Bot, anschliessend solltest du eingeloggt sein.
 
 ## 🛡️ Sicherheit
 
