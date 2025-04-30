@@ -5,6 +5,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.backends import default_backend
 
+# Der Public Key als PEM-String (wie bei dir angegeben)
 PUBLIC_KEY_PEM = b"""-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAr/zLq5zMc9Ty8uYwbvjH
 Hkkh3Kz9URqaORJOnwd+1I75t2fFMRnwORjfFiF/3jdYfTHbtKD1sO4t0f0jmwnv
@@ -38,14 +39,14 @@ def main():
     print("Willkommen zum Verschlüsselungstool für den BlitzPool Bot 🔒\n")
     public_key = load_public_key()
 
-    message = input("Gib deine Worker Wallet Adresse ein z.B. bc1q123xxx...):\n> ").strip()
+    message = input("Gib deine Worker BTC Adresse hier ein z.B. btc1q123xxx...):\n> ").strip()
     if not message:
         print("❗️ Nachricht darf nicht leer sein.")
         return
 
     encrypted = encrypt_message(public_key, message)
 
-    print("\nHier ist deine verschlüsselte Nachricht (sende sie an den Bot):\n")
+    print("\nHier ist deine verschlüsselte BTC-Adresse (sende sie an den Bot):\n")
     print(encrypted)
 
 if __name__ == "__main__":
