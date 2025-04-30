@@ -1,6 +1,6 @@
 ### 🔒 Zweck
 
-Mit diesem Tool kannst du vertrauliche Nachrichten (z. B. Bitcoin-Adressen) so verschlüsseln, dass nur der BlitzPool Server sie entschlüsseln kann. Selbst Telegram kennt den Inhalt nicht.
+Mit diesem Tool kannst du vertrauliche Nachrichten (z. B. Bitcoin-Adressen) so verschlüsseln, dass nur der BlitzPool Server (https://blitzpool.yourdevice.ch/#/) sie entschlüsseln kann. Selbst Telegram kennt den Inhalt nicht.
 
 Das Tool funktioniert vollständig offline, nutzt Public-Key-Verschlüsselung (RSA, 4096 Bit) und ist auf allen Betriebssystemen einfach zu bedienen.
 
@@ -32,7 +32,7 @@ python3 encrypt-message.py
 ```
 bc1q123xxx
 ```
-2. Sende den Output des Programms inklusive ./subscribe an den Bot, anschliessend solltest du eingeloggt sein.
+2. Sende den Output des Programms inklusive /subscribe an den Bot, anschliessend solltest du eingeloggt sein.
 
 ## 🪟 Für Windows (EXE-Version)
 
