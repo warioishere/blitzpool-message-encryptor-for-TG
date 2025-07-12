@@ -1,58 +1,69 @@
 ## English (German see below)
 
-🔒 Purpose
+### 🔒 Purpose
 
-This tool lets you encrypt confidential messages (e.g., Bitcoin addresses) so that only the BlitzPool server (https://blitzpool.yourdevice.ch/#/) can decrypt them. Even Telegram does not know the contents.
+With this tool you can encrypt confidential messages (e.g., Bitcoin addresses) so that only the BlitzPool server (https://blitzpool.yourdevice.ch/#/) can decrypt them. Even Telegram does not know the content.
 
-The tool works fully offline, uses public-key encryption (RSA, 4096 bits), and is easy to use on all operating systems.
-🖥️ For macOS & Linux (Python Version)
-📦 Requirements
+The tool works completely offline, uses public-key encryption (RSA, 4096 bits), and is easy to use on all operating systems.
 
-    Python 3.x installed
+---
 
-    The cryptography package installed:
+## 🖥️ For macOS & Linux (Python Version)
 
+### 📦 Requirements
+
+- Python 3.x is installed
+- The cryptography package is installed:
+
+```
 pip3 install cryptography
+```
 
-▶️ Usage
+### ▶️ Usage
 
-    Open a terminal
+1. Open a terminal
+2. Navigate to the folder where the encrypt-message.py file is located
+3. Start the tool:
 
-    Navigate to the folder where encrypt-message.py is located
-
-    Start the tool:
-
+```
 python3 encrypt-message.py
+```
 
-    Enter your miner BTC address, e.g.:
+4. Enter your miner BTC address, e.g.:
 
+```
 bc1q123xxx
+```
 
-    Send the output of the program including /subscribe to the bot. You should then be logged in.
+5. Send the output of the program including /subscribe to the bot. You should then be logged in.
 
-🪟 For Windows (EXE Version)
+---
 
-The Windows version works the same as the Python tool but does not require any Python installation. You can run it directly by double-clicking or using the terminal.
-▶️ Usage
+## 🪟 For Windows (EXE Version)
 
-    Open a terminal or double-click blitzpool-message-encryptor.exe
+The Windows version works like the Python tool but does not require any Python installation. You can run it directly by double-clicking or in the terminal.
 
-    Enter your miner BTC address, e.g.:
+### ▶️ Usage
 
+1. Open a terminal or double-click the blitzpool-message-encryptor.exe file
+2. Enter your miner BTC address, e.g.:
+
+```
 bc1q123xxx
+```
 
-    Send the output of the program including /subscribe to the bot. You should then be logged in.
+3. Send the output of the program including /subscribe to the bot. You should then be logged in.
 
-🛡️ Security
+---
 
-    Encryption is based on RSA-4096 with OAEP padding (SHA-256)
+## 🛡️ Security
 
-    The public key is embedded in the tool
+- The encryption is based on RSA-4096 with OAEP padding (SHA-256)
+- The public key is embedded in the tool
+- No connection to any server is established
+- Everything runs locally on your computer
 
-    No connection to any server is established
-
-    Everything runs locally on your machine
-
+ 
 ## German
 
 ### 🔒 Zweck
